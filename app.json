@@ -24,6 +24,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-router",
+      "@react-native-community/datetimepicker"
+    ],
+    "scheme": "your-app-scheme",
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
